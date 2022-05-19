@@ -5,7 +5,7 @@ import Card from "./components/Card"
 import image1 from "./components/images/image1.jpg"; 
 
 export default function App() {
-    return (
+    return ( 
         <div>
             <Navbar />
             <Hero />
