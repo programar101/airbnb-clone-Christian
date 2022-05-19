@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Card from "./components/Card"
-import image1 from "./components/images/image1.jpg"; 
+
 
 export default function App() {
     return (
@@ -10,7 +10,7 @@ export default function App() {
             <Navbar />
             <Hero />
             <Card 
-                img={image1}
+                img="../images/image1.jpg"
                 rating="5.0"
                 reviewCount={6}
                 country="USA"
